@@ -42,7 +42,7 @@ _____.___.        _____
  / ______|____/\____|__  /\____/ \____/|___|  /
  \/    W I R E L E S S   \/  F R E E D O M  \/                            
  -----------------------------------------------------
- CHAOS CALMER (%C, %R) Ver:0.1-2022-05-18 by YuMoon
+  %D , %C, R22 v0.10 Compiled by "YuMoon", %a
  -----------------------------------------------------
 EOF
 cp $GITHUB_WORKSPACE/banner package/base-files/files/etc/banner
