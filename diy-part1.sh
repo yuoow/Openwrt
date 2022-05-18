@@ -80,7 +80,7 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci
 
 #luci-app-smartdns
 
-git clone https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
+git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 ##############################################################################################
 
 # NAS
