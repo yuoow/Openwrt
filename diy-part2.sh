@@ -19,3 +19,19 @@ sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz
 
 # 5.修改默认主题
 sed -i 's/luci-theme-bootstrap/luci-theme-argonne/g' feeds/luci/collections/luci/Makefile
+
+# 6.修改机器名称
+sed -i 's/OpenWrt/G-DOCK/g' package/base-files/files/bin/config_generate
+
+# 7.修改wifi名称
+sed -i 's/OpenWrt/G-DOCK/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+
+# 8.修改banner
+rm -rf package/base-files/files/etc/banner
+cp -f ../banner package/base-files/files/etc/
+
+# echo '删除旧版argon,链接新版'
+# rm -rf ./package/lean/luci-theme-argon
+# ln -s ../../../luci-theme-argon ./package/lean/
+
+
