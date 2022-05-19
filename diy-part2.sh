@@ -35,14 +35,5 @@ sed -i "s/'UTC'/'CST-8'\n        set system.@system[-1].zonename='Asia\/Shanghai
 
 # 修改banner
 cat > package/base-files/files/etc/banner <<EOF
-_____.___.        _____                        
-\__  |   |__ __  /     \   ____   ____   ____  
- /   |   |  |  \/  \ /  \ /  _ \ /  _ \ /    \ 
- \____   |  |  /    Y    (  <_> |  <_> )   |  \
- / ______|____/\____|__  /\____/ \____/|___|  /
- \/    W I R E L E S S   \/  F R E E D O M  \/                            
- -----------------------------------------------------
-  %D , %C, R22 v0.10 Compiled by "YuMoon", %a
- -----------------------------------------------------
 EOF
 cp $GITHUB_WORKSPACE/banner package/base-files/files/etc/banner
