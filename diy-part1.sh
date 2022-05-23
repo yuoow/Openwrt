@@ -21,7 +21,7 @@
 ##############################################################################################
 
 # 主题
-git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-argonne
+git clone -b 21.02 https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-argonne
 
 ##############################################################################################
 
