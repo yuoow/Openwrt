@@ -26,10 +26,6 @@ sed -i 's/OpenWrt/YuMoon/g' package/base-files/files/bin/config_generate
 # 修改wifi名称
 sed -i 's/OpenWrt/YuMoon/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
-# 修改banner
-# rm -rf package/base-files/files/etc/banner
-# cp -f ../banner package/base-files/files/etc/
-
 # 修改时区'
 sed -i "s/'UTC'/'CST-8'\n        set system.@system[-1].zonename='Asia\/Shanghai'/g" package/base-files/files/bin/config_generate
 
