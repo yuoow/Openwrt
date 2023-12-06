@@ -68,12 +68,12 @@ git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/luci
 #git clone https://github.com/xiaorouji/openwrt-passwall2.git package/openwrt-passwall2
 
 #helloword
-#git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
-#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
-#git clone https://github.com/fw876/helloworld.git package/helloworld
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
+git clone https://github.com/fw876/helloworld.git package/helloworld
 
 #openclash
-#git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 
 #luci-app-adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
