@@ -86,7 +86,7 @@ git clone https://github.com/pymumu/luci-app-smartdns.git package/applications/l
 # NAS
 
 #文件助手
-svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-fileassistant package/luci-app-fileassistant
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-fileassistant.git package/luci-app-fileassistant
 
 ##############################################################################################
 
